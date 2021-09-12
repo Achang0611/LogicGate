@@ -1,0 +1,11 @@
+name: ${name}
+version: ${version}
+main: ${group}.logicgate.${name}
+author: VM
+api-version: 1.13
+depend:
+  - Kotlin
+commands:
+  gate:
+    description: LogicGate command
+    usage: Balabala
